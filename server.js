@@ -5,7 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-console.log(`Env port is ${process.env.PORT}`);
+console.log(`Env port is ${process.env}`);
 let serverPort = process.env.PORT || 8000;
 
 const Note = mongoose.model('Note');
