@@ -51,6 +51,6 @@ function deleteNote(id) {
     return Note.findById(id).remove();
 }
 
-const server = app.listen(serverPort, function() {
-    console.log(`Server is up and running on port ${serverPort}`);
-});
+app.listen(serverPort);
+console.log(`Server is up and running on port ${serverPort}`);
+
