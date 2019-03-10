@@ -1,7 +1,7 @@
 {
   "name": "nodejsapi",
   "version": "1.0.0",
-  "description": "habr try",
+  "description": "Just try",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
