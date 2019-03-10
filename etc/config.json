@@ -1,0 +1,9 @@
+{
+    "db":{
+        "name": "crudapidatabase",
+        "host": "ds042898.mlab.com",
+        "port": 42898,
+        "userName": "NBakulin",
+        "userPassword": "1234567n"
+    }
+}
